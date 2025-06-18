@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- Déclare que le document est en HTML5 -->
+
+<html lang="fr"> <!-- Élément racine, avec indication que le contenu est en français -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Définit l'encodage des caractères en UTF-8 (recommandé pour supporter tous les caractères, y compris accents et emojis) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Rend le site responsive :
+       - width=device-width : la largeur du site s’adapte à la largeur de l’écran de l’appareil
+       - initial-scale=1.0 : le zoom initial est de 100 % -->
+  <title>Mes documents de physique</title> <!-- Titre affiché dans l’onglet du navigateur -->
+  <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de styles CSS externe -->
+</head>
+
+<body> <!-- Corps du document, visible à l’utilisateur -->
+
+  <header>
+  <h1>Mes documents de physique</h1>
+  <nav>
+  <ul class="menu">
+  <li class="menu-item"><a href="index.html">Accueil</a></li>
+  <li class="menu-item"><a href="cours.html">Cours</a></li>
+  <li class="menu-item"><a href="td.html">TD</a></li>
+  <li class="menu-item"><a href="dm.html">DM</a></li>
+  <li class="menu-item"><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+</header>
+
+
+  <main> <!-- Contenu principal de la page -->
+    <section> <!-- Section logique pour regrouper le contenu d’introduction -->
+      <h2>Bienvenue !</h2> <!-- le <h2> pour ecrire un titre ou un Sous-titre de la section -->
+	  
+	  
+	   <!-- le <p>  pour commencer un texte et </p> pour le finir-->
+
+      <!-- Premier paragraphe d’introduction, centré horizontalement, avec une marge basse -->
+      <p style="text-align: center; margin-bottom: 10px;">
+        Ce site contient des documents de master 1 physique appliquée de l'université de Lille pour vous aider à mieux comprendre et réviser vos cours et bien se préparer pour vos examens.
+      </p>
+
+      <!-- Deuxième paragraphe centré, avec une marge haute -->
+      <p style="text-align: center; margin-top: 70px;">
+        Choisissez une section dans le menu pour commencer. Bonne révision à vous😉!
+      </p>
+
+      <!-- Bloc contenant une image affichée dans le coin supérieur gauche de la page -->
+      <div class="image-container">
+        <img src="images/idir_j.PNG" alt="Idir" class="photo-idr" />
+        <!-- Balise <img> : 
+             - src : chemin relatif vers l’image
+             - alt : texte alternatif affiché si l’image ne se charge pas (important pour l’accessibilité)
+             - class : permet de cibler l’image dans le CSS -->
+      </div>
+    </section>
+  </main>
+
+  <footer> <!-- Pied de page -->
+    <p>&copy; Designed by : Idir DRICHE </p> <!-- Texte de signature avec symbole copyright -->
+  </footer>
+
+</body>
+
+
+<div class="image-container">
+  <img src="images/idir_j.png"alt="Panda" class="photo-idr">
+</div>
+
+</html>
